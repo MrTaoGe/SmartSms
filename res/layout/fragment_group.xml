@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/listview_group"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1.0" >
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_60dip"
+        android:background="@drawable/bg_conversion_menu"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="10dip"
+        android:paddingLeft="35dip"
+        android:paddingRight="35dip"
+        android:paddingTop="15dip" >
+
+        <Button
+            android:id="@+id/btn_create_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_btn_conversation"
+            android:gravity="center"
+            android:text="@string/create_group"
+            android:textColor="@color/dark" />
+    </LinearLayout>
+
+</LinearLayout>

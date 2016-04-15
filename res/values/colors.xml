@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="indicater_red">#ff0000</color>
+    <color name="title_bar_main">#39B0FF</color>
+    <color name="tv_title_main_unfocus">#FCD209</color>
+    <color name="tv_title_main_focus">#E3F0FD</color>
+    <color name="dark">#aa000000</color>
+    <color name="gray">#66666666</color>
+    <color name="btn_dialog">#3A93FF</color>
+    <color name="btn_pressed_dialog">#662392EA</color>
+    <color name="top_title_bar">#293134</color>
+</resources>

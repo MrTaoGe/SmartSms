@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="240dip"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:padding="8dip"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_title_handle_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:gravity="center"
+        android:textColor="@color/dark"
+        android:textSize="@dimen/dimen_18sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dip"
+        android:layout_marginTop="18dip"
+        android:background="@color/dark" />
+
+    <ListView
+        android:id="@+id/listview_handle_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#aa666666"
+        android:listSelector="@drawable/selector_group_list"
+        android:dividerHeight="0.2dip" >
+    </ListView>
+
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="15dip"
+    android:paddingRight="15dip"
+    android:paddingTop="15dip" >
+
+    <CheckBox
+        android:id="@+id/checkbox_conversation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:button="@drawable/selector_checkbox"
+        android:checked="false"
+        android:enabled="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_btn_conversation"
+        android:padding="8dip" >
+
+        <ImageView
+            android:id="@+id/iv_avatar_conversation"
+            android:layout_width="55dip"
+            android:layout_height="55dip" />
+
+        <TextView
+            android:id="@+id/tv_contact_conversation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_toRightOf="@+id/iv_avatar_conversation" />
+
+        <TextView
+            android:id="@+id/tv_body_conversation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_contact_conversation"
+            android:layout_marginLeft="5dip"
+            android:layout_marginTop="5dip"
+            android:layout_toRightOf="@+id/iv_avatar_conversation"
+            android:ellipsize="end"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/tv_time_conversation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dip" >
+
+    <TextView
+        android:id="@+id/tv_name_autocomplete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="@string/name"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/dimen_18sp" />
+
+    <TextView
+        android:id="@+id/tv_number_autocomplete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dip"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="@string/number"
+        android:textColor="@color/dark"
+        android:textSize="@dimen/dimen_16sp" />
+
+</LinearLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/listview_conversation"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:divider="@android:color/transparent"
+        android:listSelector="@android:color/transparent"
+        android:layout_weight="1.0" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_60dip"
+        android:background="@drawable/bg_conversion_menu" >
+
+        <LinearLayout
+            android:id="@+id/ll_edit_conversation"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="15dip"
+            android:paddingRight="15dip"
+            android:paddingTop="20dip" 
+            android:paddingBottom="15dip">
+
+            <Button
+                android:id="@+id/btn_edit"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dip"
+                android:layout_weight="1.0"
+                android:background="@drawable/selector_btn_conversation"
+                android:gravity="center"
+                android:text="@string/edit"
+                android:textColor="@color/dark" />
+
+            <Button
+                android:id="@+id/btn_create_sms"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="@drawable/selector_btn_conversation"
+                android:gravity="center"
+                android:text="@string/create_sms"
+                android:textColor="@color/dark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_select_conversation"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="15dip"
+            android:translationY="@dimen/dimen_60dip" >
+
+            <Button
+                android:id="@+id/btn_select_all"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dip"
+                android:layout_weight="1.0"
+                android:background="@drawable/selector_btn_conversation"
+                android:gravity="center"
+                android:text="@string/select_all"
+                android:textColor="@color/dark" />
+
+            <Button
+                android:id="@+id/btn_cancel_select"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="@drawable/selector_btn_conversation"
+                android:gravity="center"
+                android:text="@string/cancel_select"
+                android:textColor="@color/dark" />
+
+            <Button
+                android:id="@+id/btn_delete"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_weight="1.0"
+                android:background="@drawable/selector_btn_conversation"
+                android:gravity="center"
+                android:text="@string/delete"
+                android:textColor="@color/dark" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

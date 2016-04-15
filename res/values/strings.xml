@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SmartSMS</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="tv_conversation">会话</string>
+    <string name="tv_group">分组</string>
+    <string name="tv_search">搜索</string>
+    <string name="create_sms">新建短信</string>
+    <string name="edit">编辑</string>
+    <string name="select_all">全选</string>
+    <string name="cancel_select">取消选择</string>
+    <string name="delete">删除</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="send">发送</string>
+    <string name="send_to">发送给:</string>
+    <string name="input_contact">请输入联系人</string>
+    <string name="input_sms_content">请输入短信内容:</string>
+    <string name="name">名字:</string>
+    <string name="number">号码:</string>
+    <string name="create_group">创建分组</string>
+    <string name="input_group_name">请键入分组的名称</string>
+    <string name="title_activity_group_detail">GroupDetailActivity</string>
+    <string name="input_keywords">请输入查询的关键字</string>
+
+</resources>

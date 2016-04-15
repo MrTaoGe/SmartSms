@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/layout_title_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="6dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/send_to"
+            android:textColor="@color/dark"
+            android:textSize="@dimen/dimen_16sp" />
+
+        <AutoCompleteTextView
+            android:id="@+id/et_chose_contact"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/bg_send_edittext"
+            android:hint="@string/input_contact"
+            android:imeOptions="actionSend"
+            android:padding="3dip"
+            android:completionThreshold="1"
+            android:textColor="@color/dark"
+            android:textSize="@dimen/dimen_16sp" />
+
+        <Button
+            android:id="@+id/btn_chose_contact"
+            android:layout_width="33dip"
+            android:layout_height="33dip"
+            android:background="@drawable/select_contact_bg" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_input_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:layout_marginTop="15dip"
+        android:background="@drawable/bg_send_edittext"
+        android:gravity="top"
+        android:hint="@string/input_sms_content"
+        android:lines="5"
+        android:padding="3dip"
+        android:textColor="@color/dark"
+        android:textSize="@dimen/dimen_16sp" />
+
+    <Button
+        android:id="@+id/btn_send_new"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dip"
+        android:background="@drawable/selector_btn_conversation"
+        android:gravity="center"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip"
+        android:text="发送"
+        android:textColor="@color/dark"
+        android:textSize="@dimen/dimen_18sp" />
+
+</LinearLayout>
